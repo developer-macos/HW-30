@@ -1,0 +1,25 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: home-work;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes home-work{
+
+    25% {
+        background-color: blue;
+        transform: translateY(150px);
+    }
+    
+    50% {
+        margin-left: 100px;
+        background-color: greenyellow;
+    }
+
+    75% {
+        background-color: yellow;
+    }
+}
